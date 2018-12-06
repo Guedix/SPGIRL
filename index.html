@@ -17,12 +17,15 @@
              <meta http-equiv="X-UA-Compatible" content="IE=7">
 
              <!--BOOTSTRAP REF-->
-             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+             <link rel="stylesheet" href="css/bootstrap.min.css">
+             <link rel="stylesheet" href="css/movel.css">
+             
              <!--FONTES-->
              <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> <!--Usada no topo-->
              <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-
+             <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> <!--Utilizado em "Preparado para ter.."-->
+             <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> <!--Usado em "Em breve.."-->
+             
              
 
 
@@ -31,45 +34,41 @@
 
 
              body {
-                background-image: url('imagens/foda.jpg');
-                background-size: 100%;
-                width: 100%;
-                background-repeat: no-repeat;
-                padding: 3em;
-                position: absolute;
-                border:2px solid #ed145b;
+               
+               background-image: url('imagens/labi.jpg');
+               background-position: top;
+               background-color: rgb(0, 0, 0);
+               background-attachment: fixed;
+               background-repeat: no-repeat;
+               
+              
              }
 
-             main {
-                
-                margin: auto;
-                padding: 0;
-                width: 100%;
-                height: 800px;
-                
-                
-             }
-             
              .jumbotron { 
 
-                background-color: #050505; /* Orange */
-                color: #f5f3f3;
-                height: 300px;
-                opacity: 0.5;
-                
+               background-color: black; 
+               color: #f5f3f3;
+               height: 100%;
+               opacity: 0.9;
+            
             }
 
-            h4 {
-               color: rgb(253, 253, 253);
+            .textos {
+               margin-top: 20px;
+            }
+
+            h3 {
+               color: rgb(255, 255, 255);
+               text-shadow: 0 0 0.2em rgb(219, 26, 145), 0 0 0.2em rgba(255, 9, 132, 0.993);
+               font-size: 2.3em;
             }
 
             small p{
-               color: #fff;
+               color: rgb(255, 255, 255);
                padding: 100px;
-               margin-left: 50px;
+               
             }
-
-           
+       
              </style>
              
        </head>
@@ -78,22 +77,36 @@
 
         <main>
 
-            <div class="jumbotron text-center">
-                    <h1 style="font-family: 'Dancing Script', cursive;">Seja Bem-Vindo ao PLAYGROUND</h1> 
-                    <h1 style="color: #ed145b; font-family: 'Merriweather', serif;">SPGIRL</h1> 
+            <div class=" jumbotron text-center">
 
-                    <p style="font-size: 1.7em">Em breve, o PLAYGROUND que VOCÊ mais esperava</p>
+
+                  <h1 style="font-family: 'Dancing Script', cursive; font-size: 3.1em">Seja Bem-Vindo ao playground</h1> 
+                  <h1 style="color: #ed145b;" class="display-4" >SPGIRL</h1> 
+
+                  <p style="font-size: 1.7em; font-family: 'Dosis', sans-serif;"><i>Em breve, o PLAYGROUND que VOCÊ mais esperava</i></p>
+                  <hr style="background-color:#ed145b; margin-top: 50px;">
             </div>
 
-            <div class="text-center">
+            
 
-                  <h4><b>Site de acompanhantes em São Paulo</b></h4>
+              <div class=" text-center textos">
 
-            </div>
+                  <h3 style="font-family: 'Righteous', cursive;"><b>Preparado para ter as mulheres mais desejadas de SP?</b></h3>
+                  <img src="imagens/LOGOTIPO2.png" class="image-responsive">
 
-            <small><p>Copyright ©2018 All Rights Reserved</p></small>
-           
+              </div>
+
+              <small><p>Copyright ©2018 All Rights Reserved</p></small>
+         
         </main>
+
+
+        <!--FINAL DO CÓDIGO-->
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/navegacao.js"></script>
 
      </body>
 
