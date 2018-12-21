@@ -1,0 +1,41 @@
+header {
+  padding: 20px; }
+  header h1 {
+    color: #5c459c; }
+  header p {
+    font-size: 18px;
+    color: gray; }
+  header ul {
+    display: block;
+    line-height: 1.4; }
+    header ul li {
+      margin: 5px;
+      display: inline; }
+      header ul li a {
+        text-decoration: none; }
+        header ul li a:hover {
+          color: red; }
+
+.btn-default, .btn-blue, .btn-red {
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  background-color: white; }
+  .btn-default:hover, .btn-blue:hover, .btn-red:hover {
+    opacity: 0.9; }
+
+.btn-blue {
+  border: 1px solid #383ac4;
+  color: white;
+  background-color: #5249a3; }
+
+.btn-red {
+  border: 1px solid black;
+  color: white;
+  background-color: #ca2424; }
+
+/*# sourceMappingURL=style.css.map */
